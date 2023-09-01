@@ -1,0 +1,8 @@
+<RCC>
+  <qresource prefix="Encuesta">
+    <file>216242_home_icon.png</file>
+    <file>3289574_clan_family_group_peer_people_icon.png</file>
+    <file>hogar.png</file>
+    <file>ubicacion.png</file>
+  </qresource>
+</RCC>

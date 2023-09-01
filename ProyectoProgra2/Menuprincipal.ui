@@ -1,0 +1,3536 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1178</width>
+    <height>721</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(0, 137, 206);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QMdiArea" name="mdiArea">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1161</width>
+      <height>651</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(0, 137, 206);</string>
+    </property>
+    <property name="background">
+     <brush brushstyle="SolidPattern">
+      <color alpha="255">
+       <red>0</red>
+       <green>133</green>
+       <blue>200</blue>
+      </color>
+     </brush>
+    </property>
+    <widget class="QWidget" name="SubUsua">
+     <property name="windowTitle">
+      <string>SubPantallaUsuario</string>
+     </property>
+     <widget class="QLabel" name="LabelCrearU">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>60</y>
+        <width>171</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(177, 177, 177);</string>
+      </property>
+      <property name="text">
+       <string>Crea o modificar  Usuario</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineCreaU">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>80</y>
+        <width>161</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="LabelCrearpass">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>110</y>
+        <width>171</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(177, 177, 177);</string>
+      </property>
+      <property name="text">
+       <string>Crear/modificar Password</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineCrearpassAdmi">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>380</y>
+        <width>161</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnCrear">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>160</y>
+        <width>75</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+background-color: rgb(0, 136, 0);</string>
+      </property>
+      <property name="text">
+       <string>Crear</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnModificar">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>190</y>
+        <width>75</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 136, 0);</string>
+      </property>
+      <property name="text">
+       <string>Modificar</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnLimpiartxt">
+      <property name="geometry">
+       <rect>
+        <x>590</x>
+        <y>390</y>
+        <width>91</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(204, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string>LimpiarTexto</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnBorrarUsa">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>220</y>
+        <width>75</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(204, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string>Borrar</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="LabelCrearID">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>10</y>
+        <width>21</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(177, 177, 177);</string>
+      </property>
+      <property name="text">
+       <string> ID</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineCreaID">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>30</y>
+        <width>161</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelShow1">
+      <property name="geometry">
+       <rect>
+        <x>510</x>
+        <y>30</y>
+        <width>171</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(177, 177, 177);</string>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelShow2">
+      <property name="geometry">
+       <rect>
+        <x>510</x>
+        <y>60</y>
+        <width>171</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(177, 177, 177);</string>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelShow3">
+      <property name="geometry">
+       <rect>
+        <x>510</x>
+        <y>90</y>
+        <width>171</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(177, 177, 177);</string>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelShow4">
+      <property name="geometry">
+       <rect>
+        <x>510</x>
+        <y>120</y>
+        <width>171</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(177, 177, 177);</string>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="LabelCrearID_2">
+      <property name="geometry">
+       <rect>
+        <x>460</x>
+        <y>60</y>
+        <width>31</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(177, 177, 177);</string>
+      </property>
+      <property name="text">
+       <string> ID=</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="LabelCrearID_3">
+      <property name="geometry">
+       <rect>
+        <x>430</x>
+        <y>90</y>
+        <width>61</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(177, 177, 177);</string>
+      </property>
+      <property name="text">
+       <string>Usuario=</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="LabelCrearID_4">
+      <property name="geometry">
+       <rect>
+        <x>420</x>
+        <y>120</y>
+        <width>71</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(177, 177, 177);</string>
+      </property>
+      <property name="text">
+       <string>Password=</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="LabelCrearIDAdmi">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>260</y>
+        <width>21</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(177, 177, 177);</string>
+      </property>
+      <property name="text">
+       <string> ID</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineCreaIDAdmi">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>280</y>
+        <width>161</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="LabelCrearU_2">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>310</y>
+        <width>221</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(177, 177, 177);</string>
+      </property>
+      <property name="text">
+       <string>Crear o modificar  Administrador</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineCrearAdmin">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>330</y>
+        <width>161</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="LabelCrearpass_2">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>360</y>
+        <width>291</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(177, 177, 177);</string>
+      </property>
+      <property name="text">
+       <string>Crear/modificar Password de Administrador</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineCrearpass">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>130</y>
+        <width>161</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnCrearAdmi">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>410</y>
+        <width>75</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 136, 0);</string>
+      </property>
+      <property name="text">
+       <string>Crear</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnModificarAdmi">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>440</y>
+        <width>75</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 136, 0);</string>
+      </property>
+      <property name="text">
+       <string>Modificar</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnBorrarAdmi">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>470</y>
+        <width>75</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(204, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string>Borrar</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelShow5">
+      <property name="geometry">
+       <rect>
+        <x>510</x>
+        <y>270</y>
+        <width>171</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(177, 177, 177);</string>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="LabelCrearID_5">
+      <property name="geometry">
+       <rect>
+        <x>460</x>
+        <y>300</y>
+        <width>31</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(177, 177, 177);</string>
+      </property>
+      <property name="text">
+       <string> ID=</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelShow6">
+      <property name="geometry">
+       <rect>
+        <x>510</x>
+        <y>300</y>
+        <width>171</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(177, 177, 177);</string>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="LabelCrearID_6">
+      <property name="geometry">
+       <rect>
+        <x>400</x>
+        <y>330</y>
+        <width>101</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(177, 177, 177);</string>
+      </property>
+      <property name="text">
+       <string>Administrador=</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelShow7">
+      <property name="geometry">
+       <rect>
+        <x>510</x>
+        <y>330</y>
+        <width>171</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(177, 177, 177);</string>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="LabelCrearID_7">
+      <property name="geometry">
+       <rect>
+        <x>430</x>
+        <y>360</y>
+        <width>71</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(177, 177, 177);</string>
+      </property>
+      <property name="text">
+       <string>Password=</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelShow8">
+      <property name="geometry">
+       <rect>
+        <x>510</x>
+        <y>360</y>
+        <width>171</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(177, 177, 177);</string>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+     </widget>
+     <widget class="QTableWidget" name="tbladatosEncu">
+      <property name="geometry">
+       <rect>
+        <x>690</x>
+        <y>10</y>
+        <width>431</width>
+        <height>192</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="selectionBehavior">
+       <enum>QAbstractItemView::SelectRows</enum>
+      </property>
+     </widget>
+     <widget class="QTableWidget" name="tbladatosAdmi">
+      <property name="geometry">
+       <rect>
+        <x>690</x>
+        <y>260</y>
+        <width>431</width>
+        <height>192</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="selectionBehavior">
+       <enum>QAbstractItemView::SelectRows</enum>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="SubEncues">
+     <property name="windowTitle">
+      <string>SubEncuesta</string>
+     </property>
+     <widget class="QLabel" name="labelSeguro">
+      <property name="geometry">
+       <rect>
+        <x>700</x>
+        <y>205</y>
+        <width>319</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>34</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(186, 186, 186);</string>
+      </property>
+      <property name="text">
+       <string>¿Que tipo de seguro social tiene?</string>
+      </property>
+      <property name="textFormat">
+       <enum>Qt::PlainText</enum>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBoxOtro">
+      <property name="geometry">
+       <rect>
+        <x>950</x>
+        <y>480</y>
+        <width>16</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>34</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(186, 186, 186);
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>330</x>
+        <y>60</y>
+        <width>51</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">image: url(:/Encuesta/216242_home_icon.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBoxCami">
+      <property name="geometry">
+       <rect>
+        <x>780</x>
+        <y>480</y>
+        <width>16</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>34</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(186, 186, 186);
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelDirecc">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>269</y>
+        <width>181</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>34</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(186, 186, 186)</string>
+      </property>
+      <property name="text">
+       <string>Direccion de la casa:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelCant">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>210</y>
+        <width>71</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>34</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(186, 186, 186)</string>
+      </property>
+      <property name="text">
+       <string>Canton:</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBoxBus">
+      <property name="geometry">
+       <rect>
+        <x>700</x>
+        <y>440</y>
+        <width>16</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>34</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(186, 186, 186);
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelEstavi1">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>90</y>
+        <width>141</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>34</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(186, 186, 186);</string>
+      </property>
+      <property name="text">
+       <string>Esta vivienda:</string>
+      </property>
+      <property name="textFormat">
+       <enum>Qt::PlainText</enum>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelCantid">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>305</y>
+        <width>409</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>34</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(186, 186, 186);</string>
+      </property>
+      <property name="text">
+       <string>¿Cuantas personas viven en esta vivienda?</string>
+      </property>
+      <property name="textFormat">
+       <enum>Qt::PlainText</enum>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelEstavi2">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>147</y>
+        <width>141</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>34</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(186, 186, 186);</string>
+      </property>
+      <property name="text">
+       <string>Esta vivienda:</string>
+      </property>
+      <property name="textFormat">
+       <enum>Qt::PlainText</enum>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_5">
+      <property name="geometry">
+       <rect>
+        <x>150</x>
+        <y>60</y>
+        <width>47</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">image: url(:/Encuesta/ubicacion.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="comboBoxEstavi1">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>120</y>
+        <width>221</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>34</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelJefa">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>460</y>
+        <width>371</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>34</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(186, 186, 186);</string>
+      </property>
+      <property name="text">
+       <string>¿La jefatura de su casa es compartida?</string>
+      </property>
+      <property name="textFormat">
+       <enum>Qt::PlainText</enum>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBoxBici">
+      <property name="geometry">
+       <rect>
+        <x>700</x>
+        <y>480</y>
+        <width>16</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>34</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(186, 186, 186);
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_6">
+      <property name="geometry">
+       <rect>
+        <x>470</x>
+        <y>0</y>
+        <width>131</width>
+        <height>43</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>34</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>26</pointsize>
+        <weight>50</weight>
+        <italic>true</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+background-color: rgb(132, 132, 132);</string>
+      </property>
+      <property name="text">
+       <string>Encuesta</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBoxCarro">
+      <property name="geometry">
+       <rect>
+        <x>760</x>
+        <y>440</y>
+        <width>16</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>34</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(186, 186, 186);
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEditPerso">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>362</y>
+        <width>171</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>34</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="LablProv">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>92</y>
+        <width>81</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>34</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(186, 186, 186)</string>
+      </property>
+      <property name="text">
+       <string>Provincia:</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEditDistri">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>184</y>
+        <width>171</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>34</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);
+</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBoxBuPri">
+      <property name="geometry">
+       <rect>
+        <x>910</x>
+        <y>440</y>
+        <width>16</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>34</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(186, 186, 186);
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="LabelUbi">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>50</y>
+        <width>131</width>
+        <height>33</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>34</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(186, 186, 186)</string>
+      </property>
+      <property name="text">
+       <string>Ubicacion</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelEdu">
+      <property name="geometry">
+       <rect>
+        <x>700</x>
+        <y>90</y>
+        <width>417</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>34</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(186, 186, 186);</string>
+      </property>
+      <property name="text">
+       <string>¿Actualmente asiste a un centro educativo?</string>
+      </property>
+      <property name="textFormat">
+       <enum>Qt::PlainText</enum>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelPobla">
+      <property name="geometry">
+       <rect>
+        <x>700</x>
+        <y>51</y>
+        <width>132</width>
+        <height>33</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>34</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(186, 186, 186)</string>
+      </property>
+      <property name="text">
+       <string>Poblacion</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBoxTren">
+      <property name="geometry">
+       <rect>
+        <x>880</x>
+        <y>480</y>
+        <width>16</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>34</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(186, 186, 186);
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelHog">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>266</y>
+        <width>91</width>
+        <height>33</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>34</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(186, 186, 186)</string>
+      </property>
+      <property name="text">
+       <string>Hogar</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBoxIngl">
+      <property name="geometry">
+       <rect>
+        <x>700</x>
+        <y>300</y>
+        <width>16</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>34</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(186, 186, 186);
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBoxNing">
+      <property name="geometry">
+       <rect>
+        <x>700</x>
+        <y>380</y>
+        <width>16</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>34</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(186, 186, 186);
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelPerso">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>329</y>
+        <width>169</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>34</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(186, 186, 186)</string>
+      </property>
+      <property name="text">
+       <string>Persona Encuestada</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEditPrivincia">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>125</y>
+        <width>171</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>34</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBoxPor">
+      <property name="geometry">
+       <rect>
+        <x>700</x>
+        <y>341</y>
+        <width>16</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>34</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(186, 186, 186);
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="comboBoxSeguro">
+      <property name="geometry">
+       <rect>
+        <x>700</x>
+        <y>235</y>
+        <width>321</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>34</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEditDirecc">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>303</y>
+        <width>171</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>34</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);
+</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelVivie">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>51</y>
+        <width>116</width>
+        <height>33</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>34</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(186, 186, 186)</string>
+      </property>
+      <property name="text">
+       <string>Vivienda</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelIdioma">
+      <property name="geometry">
+       <rect>
+        <x>700</x>
+        <y>262</y>
+        <width>321</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>34</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(186, 186, 186);</string>
+      </property>
+      <property name="text">
+       <string>¿Actualmente habla otro idioma?</string>
+      </property>
+      <property name="textFormat">
+       <enum>Qt::PlainText</enum>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="comboBoxEstavi2">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>177</y>
+        <width>221</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>34</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBoxFran">
+      <property name="geometry">
+       <rect>
+        <x>700</x>
+        <y>320</y>
+        <width>16</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>34</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(186, 186, 186);
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="comboBoxEdu">
+      <property name="geometry">
+       <rect>
+        <x>700</x>
+        <y>121</y>
+        <width>321</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>34</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="comboBoxIndig">
+      <property name="geometry">
+       <rect>
+        <x>700</x>
+        <y>178</y>
+        <width>321</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>34</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelTrans">
+      <property name="geometry">
+       <rect>
+        <x>700</x>
+        <y>410</y>
+        <width>351</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>34</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(186, 186, 186);</string>
+      </property>
+      <property name="text">
+       <string>¿Que medio usa para transportarse?</string>
+      </property>
+      <property name="textFormat">
+       <enum>Qt::PlainText</enum>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_7">
+      <property name="geometry">
+       <rect>
+        <x>840</x>
+        <y>50</y>
+        <width>61</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">image: url(:/Encuesta/3289574_clan_family_group_peer_people_icon.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelCons">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>204</y>
+        <width>321</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>34</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(186, 186, 186);</string>
+      </property>
+      <property name="text">
+       <string>Esta vivienda se construyo hace:</string>
+      </property>
+      <property name="textFormat">
+       <enum>Qt::PlainText</enum>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBoxMoto">
+      <property name="geometry">
+       <rect>
+        <x>830</x>
+        <y>440</y>
+        <width>16</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>34</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(186, 186, 186);
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBoAlem">
+      <property name="geometry">
+       <rect>
+        <x>700</x>
+        <y>360</y>
+        <width>16</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>34</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(186, 186, 186);
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="comboBoxCons">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>234</y>
+        <width>221</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>34</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEditCant">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>243</y>
+        <width>171</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>34</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_8">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>270</y>
+        <width>51</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">image: url(:/Encuesta/hogar.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelIndig">
+      <property name="geometry">
+       <rect>
+        <x>700</x>
+        <y>148</y>
+        <width>351</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>34</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(186, 186, 186);</string>
+      </property>
+      <property name="text">
+       <string>¿Pertenece a algun pueblo indigena?</string>
+      </property>
+      <property name="textFormat">
+       <enum>Qt::PlainText</enum>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelDistri">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>151</y>
+        <width>71</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>34</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(186, 186, 186)</string>
+      </property>
+      <property name="text">
+       <string>Distrito:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_9">
+      <property name="geometry">
+       <rect>
+        <x>680</x>
+        <y>0</y>
+        <width>61</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">image: url(:/Encuesta/bandera-de-costa-rica.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QSpinBox" name="spinMujeres">
+      <property name="geometry">
+       <rect>
+        <x>270</x>
+        <y>380</y>
+        <width>33</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelHombres">
+      <property name="geometry">
+       <rect>
+        <x>390</x>
+        <y>340</y>
+        <width>51</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(186, 186, 186)</string>
+      </property>
+      <property name="text">
+       <string>Hombres</string>
+      </property>
+     </widget>
+     <widget class="QSpinBox" name="spinAdMayores">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>420</y>
+        <width>33</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelMujeres">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>380</y>
+        <width>47</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(186, 186, 186)</string>
+      </property>
+      <property name="text">
+       <string>Mujeres</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelAdMay">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>420</y>
+        <width>101</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(186, 186, 186)</string>
+      </property>
+      <property name="text">
+       <string>Adultos mayores</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelMeEdad">
+      <property name="geometry">
+       <rect>
+        <x>390</x>
+        <y>380</y>
+        <width>101</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(186, 186, 186)</string>
+      </property>
+      <property name="text">
+       <string>Menores de edad</string>
+      </property>
+     </widget>
+     <widget class="QSpinBox" name="spinTotal">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>340</y>
+        <width>33</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelMaEdad">
+      <property name="geometry">
+       <rect>
+        <x>390</x>
+        <y>420</y>
+        <width>101</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(186, 186, 186)</string>
+      </property>
+      <property name="text">
+       <string>Mayores de edad</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="LabelTotal">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>340</y>
+        <width>31</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(186, 186, 186)</string>
+      </property>
+      <property name="text">
+       <string>Total</string>
+      </property>
+     </widget>
+     <widget class="QSpinBox" name="spinHombres">
+      <property name="geometry">
+       <rect>
+        <x>520</x>
+        <y>340</y>
+        <width>33</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+     </widget>
+     <widget class="QSpinBox" name="spinMayores">
+      <property name="geometry">
+       <rect>
+        <x>520</x>
+        <y>420</y>
+        <width>33</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+     </widget>
+     <widget class="QSpinBox" name="spinMenores">
+      <property name="geometry">
+       <rect>
+        <x>520</x>
+        <y>380</y>
+        <width>33</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="comboJefatura">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>490</y>
+        <width>141</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);
+</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnFinalizarEn">
+      <property name="geometry">
+       <rect>
+        <x>630</x>
+        <y>540</y>
+        <width>191</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>11</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 140, 0);</string>
+      </property>
+      <property name="text">
+       <string>Finalizar encuesta</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton">
+      <property name="geometry">
+       <rect>
+        <x>840</x>
+        <y>540</y>
+        <width>191</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>11</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+background-color: rgb(212, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string>Limpiar encuesta</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelIngles">
+      <property name="geometry">
+       <rect>
+        <x>720</x>
+        <y>300</y>
+        <width>47</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(186, 186, 186);</string>
+      </property>
+      <property name="text">
+       <string>Ingles</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelFran">
+      <property name="geometry">
+       <rect>
+        <x>720</x>
+        <y>320</y>
+        <width>47</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(186, 186, 186);</string>
+      </property>
+      <property name="text">
+       <string>Frances</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelPortu">
+      <property name="geometry">
+       <rect>
+        <x>720</x>
+        <y>340</y>
+        <width>61</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(186, 186, 186);</string>
+      </property>
+      <property name="text">
+       <string>Portugues</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelAleman">
+      <property name="geometry">
+       <rect>
+        <x>720</x>
+        <y>360</y>
+        <width>47</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(186, 186, 186);</string>
+      </property>
+      <property name="text">
+       <string>Aleman</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelning">
+      <property name="geometry">
+       <rect>
+        <x>720</x>
+        <y>380</y>
+        <width>47</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(186, 186, 186);</string>
+      </property>
+      <property name="text">
+       <string>Ninguno</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelCarro">
+      <property name="geometry">
+       <rect>
+        <x>780</x>
+        <y>440</y>
+        <width>31</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(186, 186, 186);</string>
+      </property>
+      <property name="text">
+       <string>Carro</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelBus">
+      <property name="geometry">
+       <rect>
+        <x>720</x>
+        <y>440</y>
+        <width>21</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(186, 186, 186);</string>
+      </property>
+      <property name="text">
+       <string>Bus</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelMoto">
+      <property name="geometry">
+       <rect>
+        <x>850</x>
+        <y>440</y>
+        <width>47</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(186, 186, 186);</string>
+      </property>
+      <property name="text">
+       <string>Moto</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelBuseta">
+      <property name="geometry">
+       <rect>
+        <x>930</x>
+        <y>440</y>
+        <width>91</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(186, 186, 186);</string>
+      </property>
+      <property name="text">
+       <string>Buseta privada</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelBici">
+      <property name="geometry">
+       <rect>
+        <x>720</x>
+        <y>480</y>
+        <width>47</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(186, 186, 186);</string>
+      </property>
+      <property name="text">
+       <string>Bicicleta</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelCamion">
+      <property name="geometry">
+       <rect>
+        <x>800</x>
+        <y>480</y>
+        <width>71</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(186, 186, 186);</string>
+      </property>
+      <property name="text">
+       <string>Caminando</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelTren">
+      <property name="geometry">
+       <rect>
+        <x>900</x>
+        <y>480</y>
+        <width>31</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(186, 186, 186);</string>
+      </property>
+      <property name="text">
+       <string>Tren</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelOtro">
+      <property name="geometry">
+       <rect>
+        <x>970</x>
+        <y>480</y>
+        <width>31</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(186, 186, 186);</string>
+      </property>
+      <property name="text">
+       <string>Otro</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="SubSimu">
+     <property name="windowTitle">
+      <string>SubSimulador</string>
+     </property>
+     <widget class="QLabel" name="labelDigeteCantPer">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>30</y>
+        <width>191</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(186, 186, 186)
+</string>
+      </property>
+      <property name="text">
+       <string>Digite la cantidad de persona</string>
+      </property>
+     </widget>
+     <widget class="QSpinBox" name="spinCantPersonas">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>50</y>
+        <width>191</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelDigiPreg">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>80</y>
+        <width>281</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(186, 186, 186)</string>
+      </property>
+      <property name="text">
+       <string>Digite el numero de la pregunta que desea </string>
+      </property>
+     </widget>
+     <widget class="QSpinBox" name="spinDigiNumPre">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>100</y>
+        <width>191</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Pregunta">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>240</y>
+        <width>71</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(186, 186, 186)</string>
+      </property>
+      <property name="text">
+       <string>Pregunta=</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="LabelPreguntaRes">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>240</y>
+        <width>271</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(186, 186, 186)</string>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnResponder">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>370</y>
+        <width>75</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 148, 0);</string>
+      </property>
+      <property name="text">
+       <string>Responder</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>370</y>
+        <width>75</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(214, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string>Limpiar</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelDigiNombrePer">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>130</y>
+        <width>351</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(186, 186, 186)</string>
+      </property>
+      <property name="text">
+       <string>Digite el nombre completo de la persona encuestada</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineNombrePer">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>150</y>
+        <width>281</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="RespuestaNombre">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>270</y>
+        <width>121</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(186, 186, 186)</string>
+      </property>
+      <property name="text">
+       <string>Nombre completo=</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="LabelNombreper">
+      <property name="geometry">
+       <rect>
+        <x>150</x>
+        <y>270</y>
+        <width>221</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(186, 186, 186)</string>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelIDsimula">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>180</y>
+        <width>21</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(186, 186, 186)</string>
+      </property>
+      <property name="text">
+       <string>ID</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineIDsimulador">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>200</y>
+        <width>281</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelIDsimula_2">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>300</y>
+        <width>21</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(186, 186, 186)</string>
+      </property>
+      <property name="text">
+       <string>ID=</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="LabelIDsimulador">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>300</y>
+        <width>321</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(186, 186, 186)</string>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+     </widget>
+     <zorder>labelDigeteCantPer</zorder>
+     <zorder>spinCantPersonas</zorder>
+     <zorder>labelDigiPreg</zorder>
+     <zorder>spinDigiNumPre</zorder>
+     <zorder>LabelPreguntaRes</zorder>
+     <zorder>btnResponder</zorder>
+     <zorder>pushButton_2</zorder>
+     <zorder>labelDigiNombrePer</zorder>
+     <zorder>lineNombrePer</zorder>
+     <zorder>RespuestaNombre</zorder>
+     <zorder>LabelNombreper</zorder>
+     <zorder>labelIDsimula</zorder>
+     <zorder>lineIDsimulador</zorder>
+     <zorder>labelIDsimula_2</zorder>
+     <zorder>LabelIDsimulador</zorder>
+     <zorder>Pregunta</zorder>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1178</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuAdministrador">
+    <property name="title">
+     <string>Administrador</string>
+    </property>
+    <addaction name="actionPantallaUsuario"/>
+    <addaction name="actionPantalla_Simulador"/>
+   </widget>
+   <widget class="QMenu" name="menuEncuestador">
+    <property name="title">
+     <string>Encuestador</string>
+    </property>
+    <addaction name="actionEncuesta"/>
+   </widget>
+   <addaction name="menuAdministrador"/>
+   <addaction name="menuEncuestador"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionPantallaUsuario">
+   <property name="text">
+    <string>Pantalla Usuario</string>
+   </property>
+  </action>
+  <action name="actionEncuesta">
+   <property name="text">
+    <string>Encuesta </string>
+   </property>
+  </action>
+  <action name="actionPantalla_simulador">
+   <property name="text">
+    <string>Pantalla simulador</string>
+   </property>
+  </action>
+  <action name="actionPantalla_Simulador">
+   <property name="text">
+    <string>Pantalla Simulador</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>btnLimpiartxt</sender>
+   <signal>clicked()</signal>
+   <receiver>labelShow8</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>624</x>
+     <y>460</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>634</x>
+     <y>423</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnLimpiartxt</sender>
+   <signal>clicked()</signal>
+   <receiver>labelShow7</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>679</x>
+     <y>460</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>688</x>
+     <y>393</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnLimpiartxt</sender>
+   <signal>clicked()</signal>
+   <receiver>labelShow6</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>655</x>
+     <y>460</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>673</x>
+     <y>363</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnLimpiartxt</sender>
+   <signal>clicked()</signal>
+   <receiver>labelShow5</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>658</x>
+     <y>460</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>683</x>
+     <y>333</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnLimpiartxt</sender>
+   <signal>clicked()</signal>
+   <receiver>labelShow4</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>688</x>
+     <y>460</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>688</x>
+     <y>183</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnLimpiartxt</sender>
+   <signal>clicked()</signal>
+   <receiver>labelShow3</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>616</x>
+     <y>460</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>624</x>
+     <y>153</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnLimpiartxt</sender>
+   <signal>clicked()</signal>
+   <receiver>labelShow2</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>660</x>
+     <y>460</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>659</x>
+     <y>123</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnLimpiartxt</sender>
+   <signal>clicked()</signal>
+   <receiver>labelShow1</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>613</x>
+     <y>460</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>634</x>
+     <y>93</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnLimpiartxt</sender>
+   <signal>clicked()</signal>
+   <receiver>lineCrearpassAdmi</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>611</x>
+     <y>460</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>198</x>
+     <y>447</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnLimpiartxt</sender>
+   <signal>clicked()</signal>
+   <receiver>lineCrearAdmin</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>647</x>
+     <y>460</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>198</x>
+     <y>397</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnLimpiartxt</sender>
+   <signal>clicked()</signal>
+   <receiver>lineCreaIDAdmi</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>647</x>
+     <y>460</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>195</x>
+     <y>347</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnLimpiartxt</sender>
+   <signal>clicked()</signal>
+   <receiver>lineCrearpass</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>661</x>
+     <y>460</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>198</x>
+     <y>197</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnLimpiartxt</sender>
+   <signal>clicked()</signal>
+   <receiver>lineCreaU</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>620</x>
+     <y>460</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>198</x>
+     <y>147</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnLimpiartxt</sender>
+   <signal>clicked()</signal>
+   <receiver>lineCreaID</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>661</x>
+     <y>460</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>195</x>
+     <y>97</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>spinMayores</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1180</x>
+     <y>610</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>702</x>
+     <y>487</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>spinMenores</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1180</x>
+     <y>610</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>702</x>
+     <y>447</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>spinHombres</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1180</x>
+     <y>610</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>702</x>
+     <y>407</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>spinAdMayores</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1180</x>
+     <y>610</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>502</x>
+     <y>487</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>spinMujeres</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1180</x>
+     <y>610</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>452</x>
+     <y>447</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>spinTotal</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1180</x>
+     <y>610</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>442</x>
+     <y>407</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>lineEditPerso</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1177</x>
+     <y>610</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>330</x>
+     <y>429</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>lineEditDirecc</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1180</x>
+     <y>610</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>330</x>
+     <y>370</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>lineEditCant</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1180</x>
+     <y>610</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>330</x>
+     <y>310</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>lineEditDistri</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1180</x>
+     <y>610</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>330</x>
+     <y>251</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>lineEditPrivincia</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1180</x>
+     <y>610</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>330</x>
+     <y>192</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>LabelIDsimulador</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>496</x>
+     <y>440</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>662</x>
+     <y>368</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>LabelPreguntaRes</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>496</x>
+     <y>440</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>662</x>
+     <y>308</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>lineIDsimulador</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>496</x>
+     <y>440</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>602</x>
+     <y>267</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>lineNombrePer</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>496</x>
+     <y>440</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>602</x>
+     <y>217</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>spinDigiNumPre</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>496</x>
+     <y>440</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>512</x>
+     <y>169</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>spinCantPersonas</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>496</x>
+     <y>440</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>512</x>
+     <y>119</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>LabelNombreper</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>496</x>
+     <y>440</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>662</x>
+     <y>338</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
